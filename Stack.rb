@@ -25,4 +25,8 @@ class Stack
     end
   end
 
+  def empty?()
+    return @internal.empty?
+  end
+
 end
